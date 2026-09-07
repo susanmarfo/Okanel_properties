@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/chatbot.css">
+
+    <title>Real Estate Consultancy</title>
+</head>
+
+<body class="">
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Real Estate Consultancy<i class='bx bxs-buildings'></i></a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">
+                            <i class='bx bx-building-house'></i>
+                            <span>Services</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#value" class="nav__link">
+                            <i class='bx bx-award'></i>
+                            <span>Why Us</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#consultant" class="nav__link">
+                            <i class='bx bx-user'></i>
+                            <span>Consultant</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-phone'></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+            <!-- <a href="#" class="button nav__button">Subscribe</a> -->
+
+        </nav>
+
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home_data">
+                    <h1 class="home__title">
+                        REAL ESTATE<br>CONSULTANT
+                    </h1>
+                    <p class="home__description">
+                        Professional guidance for confident property decisions, from acquisition and surveying to
+                        documentation and construction.
+                    </p>
+
+                    <a href="#contact" class="button">Book a consultation</a>
+
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                <i class='bx bx-user-check'></i>
+                            </h1>
+                            <span class="home__value-description">
+                                Personalized <br> guidance
+                            </span>
+                        </div>
+
+                        <div>
+                            <h1 class="home__value-number">
+                                <i class='bx bxs-file-doc'></i>
+                            </h1>
+                            <span class="home__value-description">
+                                Careful <br> documentation
+                            </span>
+                        </div>
+
+                        <div>
+                            <h1 class="home__value-number">
+                                <i class='bx bx-check-circle'></i>
+                            </h1>
+                            <span class="home__value-description">
+                                Clear <br> next steps
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+                    <div class="home__img">
+                        <img src="assets/img/home.jpeg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="popular section" id="popular">
+            <div class="container">
+                <span class="section__subtitle">
+                    What We Do
+                </span>
+                <h2 class="section__title">
+                    Real estate services <span>with clarity.</span>
+                </h2>
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+
+                        <article class="popular__card swiper-slide">
+                            <img class="popular__img" src="assets/img/popular1.jpeg" alt="">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>01</span>
+                                </h2>
+                                <h3 class="popular__title">
+                                    Advice on Property Acquisition
+                                </h3>
+                                <p class="popular__description">
+                                    Make informed property decisions with practical guidance from search to purchase.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img class="popular__img" src="assets/img/popular2.jpeg" alt="">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>02</span>
+                                </h2>
+                                <h3 class="popular__title">
+                                    Surveying Works
+                                </h3>
+                                <p class="popular__description">
+                                    Understand your land and property through careful surveying support and clear findings.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img class="popular__img" src="assets/img/popular3.jpg" alt="">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>03</span>
+                                </h2>
+                                <h3 class="popular__title">
+                                    Deed Presentations
+                                </h3>
+                                <p class="popular__description">
+                                    Present and organize your property deeds with confidence and attention to detail.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img class="popular__img" src="assets/img/popular4.jpg" alt="">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>04</span>
+                                </h2>
+                                <h3 class="popular__title">
+                                    Building Constructions
+                                </h3>
+                                <p class="popular__description">
+                                    Move from plans to progress with dependable construction guidance and coordination.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img class="popular__img" src="assets/img/popular5.jpg" alt="">
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>05</span>
+                                </h2>
+                                <h3 class="popular__title">
+                                    Property Advisory
+                                </h3>
+                                <p class="popular__description">
+                                    A considered approach to every property opportunity and development project.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class='bx bxs-chevron-right'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bxs-chevron-left'></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== VALUE ====================-->
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__images">
+                    <div class="value__orbe">
+                        <div class="value__img">
+                            <img src="assets/img/value.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Why Work With Us</span>
+                        <h2 class="section__title">A clearer path to <span>property progress.</span></h2>
+                        <p class="value__description">
+                            We bring practical insight and careful coordination to the decisions that shape your land,
+                            property, and construction plans.
+                        </p>
+                    </div>
+
+                    <div class="value__accordion">
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-shield value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Advice grounded in your goals
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Receive clear, useful guidance that keeps your priorities and long-term plans in view.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-shield value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Careful attention to detail
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    From surveys to deeds, we help you move forward with accurate and organized information.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-shield value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Support across the property journey
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <!-- <i class='bx bxs-down-arrow'></i> -->
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Keep acquisition, documentation, and construction decisions connected from start to finish.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-shield value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    A trusted professional partner
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <!-- <i class='bx bxs-down-arrow'></i> -->
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Work with a consultant who helps turn complex property matters into clear next steps.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== CONSULTANT ====================-->
+        <section class="consultant section" id="consultant">
+            <div class="consultant__container container">
+                <div class="consultant__data">
+                    <span class="section__subtitle">Your Consultant</span>
+                    <h2 class="section__title">Consultant <span>Information.</span></h2>
+                    <p class="consultant__description">
+                        Meet the professional supporting your property acquisition, surveying, deed presentation, and
+                        building construction needs.
+                    </p>
+                </div>
+
+                <div class="consultant__profile">
+                    <div class="consultant__avatar">
+                        <i class='bx bx-user'></i>
+                    </div>
+                    <div class="consultant__details">
+                        <h3>Consultant name</h3>
+                        <p>Real Estate Consultant</p>
+                    </div>
+                    <dl class="consultant__contacts">
+                        <div>
+                            <dt>Phone</dt>
+                            <dd>+233 567889543</dd>
+                        </div>
+                        <div>
+                            <dt>Email</dt>
+                            <dd>Nelsonic45@yahoo.com</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe">
+
+                    </div>
+
+                    <div class="contact__img">
+                        <img src="assets/img/contact.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contact Us</span>
+                        <h2 class="section__title">
+                            Let us discuss <span>your project.</span>
+                        </h2>
+                        <p class="contact__description">
+                            Tell us what you are planning, and we can help you identify the right next step.
+                        </p>
+                    </div>
+
+                    <div class="appointment" id="appointment">
+                        <div class="appointment__heading">
+                            <span class="section__subtitle">Appointment booking</span>
+                            <h2 class="appointment__title">Book an <span>Appointment.</span></h2>
+                            <p class="appointment__description">
+                                Select the support you need and choose a weekday appointment between 7:00 AM and 6:00 PM.
+                            </p>
+                        </div>
+
+                        <form class="appointment__form" id="appointment-form">
+                            <label class="appointment__field">
+                                <span>Service</span>
+                                <select name="service" id="appointment-service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="property-acquisition">Advice on Property Acquisition</option>
+                                    <option value="surveying">Surveying Works</option>
+                                    <option value="deed-presentations">Deed Presentations</option>
+                                    <option value="building-construction">Building Constructions</option>
+                                </select>
+                            </label>
+
+                            <div class="appointment__row">
+                                <label class="appointment__field">
+                                    <span>Date</span>
+                                    <span class="appointment__input-wrap">
+                                        <i class='bx bx-calendar'></i>
+                                        <input type="date" name="date" required inputmode="none" aria-describedby="appointment-hours">
+                                        <button class="appointment__calendar-button" id="appointment-calendar-button" type="button" aria-label="Open appointment date calendar">
+                                            <i class='bx bx-calendar'></i>
+                                        </button>
+                                    </span>
+                                </label>
+                                <label class="appointment__field">
+                                    <span>Time</span>
+                                    <input type="time" name="time" min="07:00" max="18:00" step="1800" required aria-describedby="appointment-hours">
+                                </label>
+                            </div>
+
+                            <p class="appointment__hours" id="appointment-hours">
+                                <i class='bx bx-time-five'></i> Monday to Friday, 7:00 AM to 6:00 PM
+                            </p>
+
+                            <label class="appointment__field">
+                                <span>Full name</span>
+                                <input type="text" name="name" placeholder="Your name" required>
+                            </label>
+
+                            <label class="appointment__field">
+                                <span>Email address</span>
+                                <input type="email" name="email" placeholder="you@example.com" required>
+                            </label>
+
+                            <label class="appointment__field">
+                                <span>Project details <small>(optional)</small></span>
+                                <textarea name="details" rows="3" placeholder="Tell us briefly what you need help with"></textarea>
+                            </label>
+
+                            <button class="button appointment__submit" type="submit">
+                                Send booking request
+                            </button>
+                            <p class="appointment__note">Your email app will open with the booking details addressed to the consultant.</p>
+                            <p class="appointment__confirmation" id="appointment-confirmation" role="status" aria-live="polite"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section">
+            <div class="subscribe__container container">
+                <h1 class="subscribe__title">
+                    Build with confidence
+                </h1>
+                <p class="subscribe__description">
+                    From property acquisition advice to surveying, deed presentations, and building construction,
+                    Real Estate Consultancy provides practical support for your next move. </p>
+                <a href="#appointment" class="button subscribe__button">
+                    Book an appointment
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+            <!--==================== LOGOS ====================-->
+            <!-- <section class="logos section">
+                <div class="logos__container container grid">
+                    <div class="logos__img">
+                        <img src="assets/img/logo1.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets/img/logo2.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets/img/logo3.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets/img/logo4.png" alt="">
+                    </div>
+                </div>
+            </section> -->
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container">
+            <!-- <div class="links__intro">
+                <a href="" class="footer__logo">
+                    <i class='bx bxs-building-house bx-flashing' ></i>
+                </a>
+                <p class="footer__description">
+                    Stay in touch
+                </p>
+            </div> -->
+
+            <div class="footer__content">
+
+                <div>
+                    <h3 class="footer__title">
+                        About Us
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link popup-enabled">Property consultancy</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link popup-enabled">Our services</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link popup-enabled">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Features
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link popup-enabled">Property acquisition</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link popup-enabled">Surveying works</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link popup-enabled">Deed presentations</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Our History
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link popup-enabled">Building construction</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link popup-enabled">Project guidance</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link popup-enabled">Professional support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="social">
+            <h3 class="footer__title">
+                Real Estate Consultancy
+            </h3>
+
+            <ul class="footer__social">
+                <a href="" class="footer__social-link popup-enabled" target="_blank">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="" class="footer__social-link popup-enabled" target="_blank">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="" class="footer__social-link popup-enabled" target="_blank">
+                    <i class='bx bxl-pinterest'></i>
+                </a>
+                <a href="" class="footer__social-link popup-enabled" target="_blank">
+                    <i class='bx bxl-instagram-alt'></i>
+                </a>
+            </ul>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                Real Estate Consultancy <i class='bx bxs-copyright'></i> All rights reserved.
+            </span>
+
+            <div class="footer__privacy">
+                <a href="#" class='popup-enabled'>Terms & conditions</a>
+                <a href="#" class='popup-enabled'>Privacy Policy</a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class='bx bxs-chevrons-up'></i>
+    </a>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/chatbot.js"></script>
+</body>
+
+</html>
