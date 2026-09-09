@@ -5,17 +5,18 @@
 :root {
   --header-height: 3.5rem;
 
-  --first-color: hsl(30, 70%, 60%);
+  --first-color: #e09952;
   --first-color-alt: hsl(30, 70%, 45%);
   --first-color-light: hsl(30, 60%, 55%);
-  --first-color-lighten: hsl(30, 90%, 95%);
-  --second-color: hsl(40, 60%, 70%);
+  --first-color-lighten: #fef2e7;
+  --second-color: #493713;
   --title-color: hsl(30, 20%, 20%);
   --text-color: hsl(30, 20%, 50%);
-  --text-color-light: hsl(30, 70%, 65%);
+  --text-color-light: #e4a667;
   --border-color: hsl(30, 30%, 90%);
-  --body-color: hsl(30, 20%, 95%);
-  --container-color: hsl(30, 20%, 92%);
+  --body-color: #f5f2f0;
+  --container-color: #efebe7;
+  --accent-text-color: var(--second-color);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -113,12 +114,13 @@ button {
 body.dark-theme {
 
   --first-color: hsl(30, 70%, 62%);
-  --second-color: hsl(25, 57%, 54%);
+  --second-color: #493713;
   --title-color: hsl(30, 8%, 95%);
   --text-color: hsl(30, 8%, 70%);
   --border-color: hsl(30, 16%, 14%);
   --body-color: hsl(30, 12%, 8%);
   --container-color: hsl(30, 16%, 12%);
+  --accent-text-color: #e4a667;
 
 }
 
@@ -197,13 +199,13 @@ body.dark-theme {
 }
 
 .section__title span {
-  color: var(--second-color);
+  color: var(--accent-text-color);
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
-  color: var(--second-color);
+  color: var(--accent-text-color);
 }
 
 .main {
@@ -289,7 +291,7 @@ nav {
 }
 
 .scroll-header .nav__logo {
-  color: var(--first-color);
+  color: var(--accent-text-color);
 }
 
 .scroll-header .change-theme {
@@ -815,7 +817,7 @@ nav {
   width: 100%;
   border-radius: .25rem;
   background: var(--first-color-lighten);
-  color: var(--first-color);
+  color: var(--accent-text-color);
   font-weight: var(--font-semi-bold);
   box-shadow: none;
   transition: all .4s ease;
@@ -844,7 +846,7 @@ nav {
 }
 
 .appointment__title span {
-  color: var(--second-color);
+  color: var(--accent-text-color);
 }
 
 .appointment__description {
@@ -1014,7 +1016,7 @@ nav {
 }
 
 .footer__logo {
-  color: var(--first-color);
+  color: var(--accent-text-color);
   font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
   display: inline-flex;
@@ -1116,7 +1118,7 @@ nav {
 ::-webkit-scrollbar {
   width: .6rem;
   border-radius: .5rem;
-  background-color: hsl(228, 8%, 76%);
+  background-color: #bdbfc7;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -1125,7 +1127,7 @@ nav {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(228, 8%, 54%);
+  background-color: #808493;
   border-radius: .5rem;
 }
 
@@ -1347,7 +1349,7 @@ nav {
   }
 
   .scroll-header .active-link {
-    color: var(--first-color);
+    color: var(--accent-text-color);
   }
 
   .home {
