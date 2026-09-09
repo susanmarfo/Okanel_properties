@@ -565,18 +565,18 @@ nav {
 }
 
 .value__orbe {
-  width: 266px;
-  height: 316px;
+  width: clamp(190px, 60vw, 266px);
+  height: clamp(225px, 71vw, 316px);
   background: linear-gradient(180deg, hsl(0, 0%, 16%) 93%, hsl(0, 0%, 67%) 100%);
-  border-radius: 135px 135px 16px 16px;
+  border-radius: 50% 50% 6% 6%;
 }
 
 .value__img {
   position: absolute;
-  width: 300px;
-  height: 360px;
+  width: clamp(210px, 68vw, 300px);
+  height: clamp(250px, 82vw, 360px);
   overflow: hidden;
-  border-radius: 150px 150px 16px 16px;
+  border-radius: 50% 50% 6% 6%;
   inset: 0;
   margin: auto;
   box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
@@ -743,18 +743,18 @@ nav {
 }
 
 .contact__orbe {
-  width: 266px;
-  height: 316px;
+  width: clamp(190px, 60vw, 266px);
+  height: clamp(225px, 71vw, 316px);
   background: linear-gradient(180deg, hsl(0, 0%, 16%) 93%, hsl(0, 0%, 67%) 100%);
-  border-radius: 135px 135px 16px 16px;
+  border-radius: 50% 50% 6% 6%;
 }
 
 .contact__img {
   position: absolute;
-  width: 300px;
-  height: 360px;
+  width: clamp(210px, 68vw, 300px);
+  height: clamp(250px, 82vw, 360px);
   overflow: hidden;
-  border-radius: 150px 150px 16px 16px;
+  border-radius: 50% 50% 6% 6%;
   inset: 0;
   margin: auto;
   box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
